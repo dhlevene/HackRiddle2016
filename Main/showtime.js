@@ -36,7 +36,7 @@ window.onload = function(){
                         "<p>Capacity: " + event.capacity + "</p>" +
                         "<p>Start: " + new Date(event.start.utc) + "</p>" +
                         "<p>End: " + new Date(event.end.utc) + "</p>" +
-                        "<button id='sbmt class='btn btn-success'>SS</Button></div></div>"
+                        "<button id='sbmt class='btn btn-success'>SS</Button></div></div></div>"
                         }
                         else{
                             s += "<div class='panel panel-default'><div class='panel-heading'><h4 class='panel-title'><a data-toggle='collapse' data-parent='#accordion' href='#collapse" + i + "'>" + event.name.text + "</a> </h4></div><div id='collapse" + i + "' class='panel-collapse collapse'><div class='panel-body'>"+
